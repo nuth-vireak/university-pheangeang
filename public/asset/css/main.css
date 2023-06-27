@@ -566,7 +566,7 @@ input {
 }
 
 .jomnot-fix-safari-radius {
-    -webkit-mask-image: -webkit-radial-gradient(#fff, #000);
+    --webkit-mask-image: -webkit-radial-gradient(#fff, #000);
 }
 .h-\[104px\] {
     height: 104px;
@@ -732,18 +732,102 @@ svg {
     width: 16px;
     height: 16px;
 }
-
-
-/* .group {
-    overflow: hidden;
-    z-index: 1;
-    transition: all 0.3s ease-in-out;
+.h-\[400px\] {
+    height: 400px;
 }
-.group:hover {
-    transform: scale(1.25);
-    position: relative;
-} */
-
+.h-\[60px\] {
+    height: 60px;
+}
+.top-0 {
+    top: 0;
+}
+.absolute {
+    position: absolute;
+}
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.mx-5 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+.bottom-\[50px\] {
+    bottom: 50px;
+}
+.rounded-bl-\[60px\] {
+    border-bottom-left-radius: 60px;
+}
+.from-\[\#101827\] {
+    --tw-gradient-from: #101827;
+    --tw-gradient-to: rgba(16, 24, 39, 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.bg-gradient-to-t {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+.bottom-\[0px\] {
+    bottom: 0;
+}
+.right-0 {
+    right: 0;
+}
+.bg-\[\#101827\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(16 24 39 / var(--tw-bg-opacity));
+}
+.bottom-\[-60px\] {
+    bottom: -60px;
+}
+.rounded-tr-\[60px\] {
+    border-top-right-radius: 60px;
+}
+.items-start {
+    align-items: flex-start;
+}
+.line-clamp-2 {
+    -webkit-line-clamp: 2;
+}
+.font-semibold {
+    font-weight: 600;
+}
+.text-\[24px\] {
+    font-size: 24px;
+}
+.text-\[12px\] {
+    font-size: 12px;
+}
+.h-\[8px\] {
+    height: 8px;
+}
+.max-w-screen-lg {
+    max-width: 1024px;
+}
+.text-gray-500 {
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+.h-\[24px\] {
+    height: 24px;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.jomnot-fix-safari-radius {
+    --webkit-mask-image: -webkit-radial-gradient(#fff, #000);
+}
+.grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+.grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.gap-x-2 {
+    column-gap: 0.5rem;
+}
+.gap-y-2 {
+    row-gap: 0.5rem;
+}
 /* Media Screen goes here  */
 @media screen and (min-width: 1536px) {
     .container {
@@ -782,6 +866,9 @@ svg {
     }
     .lg\:w-auto {
         width: auto;
+    }
+    .lg\:rounded-\[22px\] {
+        border-radius: 22px;
     }
 }
 @media screen and (min-width: 768px) {

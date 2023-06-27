@@ -184,7 +184,7 @@
                     <div class="group flex flex-col items-center justify-center">
                         <div
                             class="jomnot-fix-safari-radius relative h-[150px] w-full flex-shrink-0 cursor-pointer overflow-hidden rounded-[16px] shadow-base duration-700">
-                            <a href="/km/destinations/siem-reap">
+                            <a href="/category">
                                 <div class="absolute h-full w-full rounded-[16px]"><span
                                         style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px none; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
                                             alt="សៀមរាប"
@@ -208,7 +208,7 @@
                     <div class="group flex flex-col items-center justify-center">
                         <div
                             class="jomnot-fix-safari-radius relative h-[150px] w-full flex-shrink-0 cursor-pointer overflow-hidden rounded-[16px] shadow-base duration-700">
-                            <a href="/km/destinations/kampot">
+                            <a href="/cate">
                                 <div class="absolute h-full w-full rounded-[16px]"><span
                                         style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px none; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
                                             alt="កំពត"

@@ -30,6 +30,9 @@ Route::view('/first', 'Taps/first');
 
 Route::view('/home', 'home_pages/home');
 
+Route::view('category', 'layout/category');
+Route::view('cate', 'layout/cate');
+
 
 
 Route::view('/goal', 'goal');
